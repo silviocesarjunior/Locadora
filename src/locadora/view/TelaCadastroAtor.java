@@ -89,9 +89,9 @@ public class TelaCadastroAtor extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jComboBoxNacionalidade, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanelCadastroAtorLayout.createSequentialGroup()
-                                .addGap(56, 56, 56)
+                                .addGap(42, 42, 42)
                                 .addComponent(jLabelNome)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                                 .addComponent(jTextFieldNome, javax.swing.GroupLayout.PREFERRED_SIZE, 625, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanelCadastroAtorLayout.createSequentialGroup()
                         .addGap(123, 123, 123)
@@ -102,7 +102,7 @@ public class TelaCadastroAtor extends javax.swing.JFrame {
                         .addComponent(jButtonCancelar)
                         .addGap(48, 48, 48)
                         .addComponent(jButtonConsultar)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanelCadastroAtorLayout.setVerticalGroup(
             jPanelCadastroAtorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

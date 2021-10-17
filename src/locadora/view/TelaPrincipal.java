@@ -39,7 +39,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuItemItem = new javax.swing.JMenuItem();
         jMenuSair = new javax.swing.JMenu();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Locadora");
         setResizable(false);
 
